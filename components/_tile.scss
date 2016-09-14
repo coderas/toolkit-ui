@@ -362,11 +362,6 @@ $included-tile-themes: "sky-1", "sky-account", "sky-atlantic", "sky-arts", "sky-
  */
 .c-tile__body,
 .c-tile__caption {
-  .c-tile__link .c-tile__content:focus &,
-  .c-tile__link .c-tile__content:hover & {
-    text-decoration: underline;
-  }
-
   // Set up shared pseudo element styling
   &::before,
   .c-tile__link &::after {
